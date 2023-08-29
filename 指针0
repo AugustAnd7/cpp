@@ -4,6 +4,7 @@ using namespace std;
 int main() {
 	
 	int a = 0;
+	int b = 1;
 	int* p;
 	p = &a;
 
@@ -24,6 +25,21 @@ int main() {
 	cout << endl;
 	cout << sizeof(p) << " " << sizeof(&a);
 	
+	//const的多种修饰方式 const就像一把锁 指针像一辆车 const在前面锁的是车门 在后面锁的就是方向盘
+
+	//修饰指针 常量指针 指针指向可以改 数值不能改
+	
+	/*const int* p = &a;
+	p = &b;*/
+	
+	//修饰常量 和上面反一反
+	
+	/*int* const p = &a;
+	p = 2;*/
+
+	//修饰指针和常量 彻底被劫持的车
+
+	/*const int* const p = &a;*/
 	system("pause");
 	
 	return 0;
