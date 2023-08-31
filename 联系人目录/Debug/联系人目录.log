@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\王晨焕\source\repos\联系人目录\main.cpp(159): warning C4715: “Search”: 不是所有的控件路径都返回值
+  联系人目录.vcxproj -> C:\Users\王晨焕\source\repos\联系人目录\Debug\联系人目录.exe
